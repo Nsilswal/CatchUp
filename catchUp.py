@@ -6,13 +6,13 @@ import openai
 import requests
 import json
 
-username = ""
-password = ""
+username = "" # your email address
+password = "" # your email password
 
 OPENAI_API_KEY = ""
 openai.api_key = OPENAI_API_KEY
 
-mail = imaplib.IMAP4_SSL("outlook.office365.com")
+mail = imaplib.IMAP4_SSL("outlook.office365.com") # can be changed to other platforms
 
 one_week_ago = (datetime.now() - timedelta(days=1)).strftime("%d-%b-%Y")
 
@@ -113,7 +113,7 @@ message['Subject'] = "Your Weekly C@tchUP is Here!"
 
 message.attach(MIMEText(ret, 'plain'))
 
-server = smtplib.SMTP('smtp.office365.com', 587)
+server = smtplib.SMTP('smtp.office365.com', 587) # can be changed to other platforms
 server.starttls()
 server.login(sender_email, sender_password)
 
