@@ -1,4 +1,6 @@
 # CatchUp
+Thank you so much for checking our project out ([demo video](https://www.youtube.com/watch?v=T-NDlahbAfE))! Below are some details on the motivation behind C@tchUp and how you can make and use it yourself.
+- Your creators: Aarzu and Nirvan
 
 # Inspiration
 As a college student, I often found myself overwhelmed by the sheer volume of emails flooding my inbox. This led to severe mental stress, overlooking important information, and unproductivity. My friends shared these sentiments, but we realized we were not nearly alone. According to a McKinsey report from 2012, over 30B emails are sent and received every week globally, and working professionals spend over 25% of their time managing emails, derailing them from critical tasks.
