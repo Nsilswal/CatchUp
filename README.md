@@ -28,3 +28,6 @@ While we are proud of what CatchUp is currently, we have several ideas to grow i
 # Using CatchUp For Yourself!
 If you want to try using CatchUp for yourself, feel free to clone the repo locally and open up the project in VSCode. There you will have to install the relevant pacakges and then input your own API key for using the OpenAi API. Furthermore, you need to input the username and password to an Outlook account. Finally after doing those steps, just run ```python catchUp.py``` inside of a terminal. CatchUp should print statements to the terminal as it progresses and your personalized CatchUp should be sent to the email address specified earlier. 
 Note: For now we have CatchUp only looking at emails a few days in the past, this was done to ensure we could generate a CatchUp email in a timely manner. CatchUp could easily be adapted to look at emails any time period into the past. 
+
+# Recognition
+We are grateful to have won 1st place in the Enterprise track at Duke's Generative AI Hackathon sponsored by OpenAI.
